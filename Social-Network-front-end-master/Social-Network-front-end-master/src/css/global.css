@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
+body {
+  background: #f5f5f5;
+}
+body.darkmode {
+  background: #0c0c0c;
+}
+.p-fixed {
+  position: fixed;
+}
+button {
+  cursor: pointer;
+}
+.w-100 {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+.dropdown {
+  text-align: left;
+  position: relative;
+}
+.dropdown button {
+  display: inline;
+  border: none;
+  background: #840606;
+  color: white;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 16px;
+  margin: 0 0 0 10px;
+}
+.dropdown ul {
+  z-index: 3;
+  top: 30px;
+  left: 10px;
+  background: whitesmoke;
+  position: absolute;
+  width: 0 10px;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+}
+.dropdown ul li {
+  position: relative;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.dropdown ul li:hover {
+  background: lightgray;
+  transition: 0.05s;
+}
+
+button:hover {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+  transition: 0.1s;
+}
+.darkmode button:hover {
+  box-shadow: 0px 2px 5px 0px rgba(32, 27, 27, 0.2);
+}
+.text-nunito {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.text-roboto {
+  font-family: 'Roboto', sans-serif;
+}
+.d-inline {
+  display: inline;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+}
+.text-primary {
+  color: black;
+}
+.text-secondary {
+  color: darkgray;
+}
+.darkmode .text-primary {
+  color: rgb(238, 238, 238);
+}
+.darkmode .text-secondary {
+  color: whitesmoke;
+}
+h1,
+h3 {
+  font-weight: normal;
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 10px;
+}
+h4,
+h5 {
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+*:focus {
+  outline: none;
+}
+.d-block {
+  display: block;
+}
+.width {
+  width: 25px;
+  margin-left: 18px;
+}
+.d-flex {
+  display: flex;
+}
+.space-between {
+  justify-content: space-between;
+}
+.d-grid {
+  display: grid;
+}
+.d-none {
+  display: none;
+}
+.j-space {
+  justify-content: space-between;
+}
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+.p-relative {
+  position: relative;
+}
+.p-absolute {
+  position: absolute;
+}
+hr {
+  border: solid darkgray 0.5px;
+  margin: 5px 30px;
+}
+.m-0 {
+  margin: 0;
+}
+.darkmode hr {
+  border: solid rgb(92, 92, 92) 2.5px;
+}
+.h-100vh {
+  height: 100vh;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.border-lg {
+  border: 2.5px solid lightgray;
+}
+.border-black {
+  border: 2.5px solid black;
+}
+.darkmode .border-lg {
+  border: solid rgb(92, 92, 92) 0.5px;
+}
+.border-round-small {
+  border-radius: 4px;
+}
+.border-round {
+  border-radius: 50%;
+}
+
+.color-red {
+  color: #840606;
+}
+
+.lightgray {
+  background-color: lightgray;
+}
+.buttonsize {
+  width: 15px;
+  height: 8px;
+}
+.bg-primary {
+  background: white;
+}
+.bg-navbar {
+  background: #840606;
+}
+.bg-secondary {
+  background: #f5f5f5;
+}
+.darkmode .bg-primary {
+  background: rgb(31, 31, 31);
+}
+.darkmode .bg-secondary {
+  background: rgb(63, 63, 63);
+}
+.bg-red {
+  background: #840606;
+}
+
+.btn-primary {
+  background: #850000;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+.btn-warn {
+  background: rgb(216, 15, 15);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+.text-bold {
+  font-weight: bold;
+}
+.darkmode ::-webkit-input-placeholder {
+  /* Edge */
+  color: gray;
+}
+.darkmode :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: gray;
+}
+
+.darkmode ::placeholder {
+  color: gray;
+}
+.m-auto {
+  margin: auto;
+}

@@ -1,0 +1,182 @@
+@charset "UTF-8";
+.post {
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+  background: white;
+  border: solid 0.5px lightgrey;
+  border-radius: 4px;
+}
+.lightgray {
+  background-color: lightgray;
+}
+.border-black {
+  border: solid 0.5px solid black;
+}
+.post h2,
+.post h5 {
+  padding: 1px 40px;
+}
+.text-input {
+  height: 45px;
+  width: 300px;
+  padding-left: 6px;
+  margin: 10px;
+  border: solid 0.5px solid lightgray;
+  border-radius: 4px;
+  font-size: 20px;
+}
+.post .postMetaData {
+  padding: 0 40px;
+}
+.post .postMetaData div {
+  margin: 10px;
+}
+.post .postMetaData h5 {
+  padding: 5px;
+  font-size: 15px;
+}
+.post .postMetaData i {
+  color: #3f99ee;
+}
+.post .postMetaData .label {
+  cursor: pointer;
+}
+.post .postMetaData ul li {
+  margin: 2px;
+  padding: 3px;
+}
+
+
+.post .miniProfile {
+  position: relative;
+  left: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  border: 2px;
+  padding: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+
+.post p {
+  padding: 5px 40px;
+}
+.post img,
+.post iframe {
+  margin: 5px 40px;
+}
+.post img {
+  display: block;
+  margin: auto;
+  max-width: calc(100% - 80px);
+  position: relative;
+}
+.post iframe {
+  z-index: 0;
+  position: absolute;
+  width: calc(100% - 80px);
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.post .comments {
+  width: 100%;
+}
+.post .comments .comment {
+  border: solid 0.5px darkgray;
+  border-radius: 4px;
+  padding: 20px 10px;
+  background: whitesmoke;
+  width: 80%;
+  margin: 10px auto;
+}
+.post .comments textarea {
+  border: 0.5px solid lightgray;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 4px;
+  display: block;
+  margin: auto;
+  width: 80%;
+  height: 200px;
+  resize: none;
+}
+.post .comments h3 {
+  margin: 0 13%;
+}
+.post .comments button {
+  border: none;
+  border-radius: 10px;
+  background: #3f99ee;
+  color: white;
+  margin: 0 15%;
+  width: 75px;
+  height: 30px;
+}
+
+.post .comments .miniProfile {
+  position: relative;
+  left: -50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color:  whitesmoke;
+  color: black;
+  padding: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+
+.post .comments p {
+  position: relative;
+  width: 80%;
+}
+
+.pollVote ul {
+  padding: 0 30px;
+}
+.pollVote ul li {
+  margin-bottom: 5px;
+  padding: 4px 10px;
+}
+.pollVote ul li input[type='radio'] {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.pollVote ul li input[type='radio'] ~ label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+  content: '';
+  letter-spacing: 10px;
+  font-size: 1.2em;
+  color: #535353;
+  width: 1.4em;
+}
+.pollVote ul li input[type='radio']:checked ~ label:before {
+  content: '';
+  font-size: 1.2em;
+  color: darkgreen;
+  letter-spacing: 5px;
+}
+
+/*# sourceMappingURL=post.css.map */
